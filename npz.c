@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int a;
 printf("\n enter the number");
@@ -19,4 +19,5 @@ scanf("%d",&a);
       printf("\nThe number is zero");
       }
    }
- }
+return 0; 
+}
