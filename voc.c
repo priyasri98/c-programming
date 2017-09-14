@@ -4,7 +4,7 @@ int main()
 char n;
 printf("\n Enter the character");
 scanf("%c",&n);
-if(n==A||n==E||n==I||n==o||n==u||n==a||n==e||n==i||n==o||n==u)
+if(n==A||n==E||n==I||n==O||n==U||n==a||n==e||n==i||n==o||n==u)
 {
 printf("\n the given character is vowel");
 }
