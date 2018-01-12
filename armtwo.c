@@ -1,22 +1,30 @@
 #include<stdio.h>
 int main()
 {
-int a,t,rem,i,s,e,res=0;
+int t1,t2,rem,i,s,e,res=0,a=0;
 printf("\nEnter the two intervals");
 scanf("%d%d",&s,&e);
-for(i=s;i<e;i++)
+for(i=s+1;i<e;++i)
 {
-a=i;
-while(a!=0)
+t2=i;
+  t1=i;
+  while(t1!=0)
+  {
+    t1/=10;
+    ++a;
+  }
+while(t2!=0)
 {
-rem=a%10;
-res=res+(rem*rem*rem);
-a/=10;
+rem=t2%10;
+res=res+pow(rem,a);
+t2/=10;
 }
-if(t==res)
+if(res==i)
 {
-printf("\n%d",res);
+printf("\n%d",i);
 }
+  a=0;
+  res=0;
 }
 return 0;
 }
