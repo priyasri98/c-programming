@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int a[n],i,n;
+int i,n,a[n];
 printf("\n Enter the number of elements");
 scanf("%d",&n);
 printf("\n Enter the %d elements",n);
