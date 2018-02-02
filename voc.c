@@ -2,9 +2,12 @@
 int main()
 {
 char n;
+ int a,b;
 printf("\n Enter the character");
 scanf("%c",&n);
-if(n==A||n==E||n==I||n==O||n==U||n==a||n==e||n==i||n==o||n==u)
+a=(n=='A'||n=='E'||n=='I'||n=='O'||n=='U');
+ b=(n=='a'||n=='e'||n=='i'||n=='o'||n=='u');
+if(a||b)
 {
 printf("\n the given character is vowel");
 }
