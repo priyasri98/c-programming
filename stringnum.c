@@ -12,8 +12,8 @@ if(a[i]=='0'||a[i]=='1'||a[i]=='2'||a[i]=='3'||a[i]=='4'||a[i]=='5'||a[i]=='6'||
 f=f+1;
 }
 if(f==0)
-printf("\nthere is no number in the string");
+printf("\nNo");
 else
-printf("\nstring contains number");
+printf("\nYes");
 return 0;
 }
