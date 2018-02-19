@@ -8,11 +8,11 @@ printf("\nEnter the first string");
 gets(a);
 printf("\nEnter the second string");
 gets(b);
-for(i=0;a[i]!=0;i++)
+for(i=0;a[i]!='\0';i++)
 {
 c++;
 }
-for(i=0;b[i]!=0;i++)
+for(i=0;b[i]!='\0';i++)
 {
 t++;
 }
