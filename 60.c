@@ -7,7 +7,7 @@ scanf("%d",&N);
 printf("\nFibonacci series\n");
 for(i=1;i<=N;++i)
 {
-printf("%d\n",t1);
+printf("%d\n",t2);
 nt=t1+t2;
 t1=t2;
 t2=nt;
