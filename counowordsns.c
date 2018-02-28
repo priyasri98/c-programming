@@ -8,7 +8,7 @@ printf("\nEnter the sentence");
 gets(a);
 for(i=0;a[i]!='\0';i++)
 {
-if(a[i]==''||a[i]=='\n'||a[i]=='\t')
+if(a[i]==' '||a[i]=='\n'||a[i]=='\t')
 {
 c++;
 }
